@@ -6,6 +6,8 @@ This project aims to detect COVID-19 in chest X-ray images using a Convolutional
 #### VGG-16 Model
 VGG-16 is a well-known convolutional neural network model with 16 layers, designed by the Visual Graphics Group at the University of Oxford. It is trained on the ImageNet dataset and is known for its depth and simplicity. The architecture consists of multiple convolutional layers, which help in capturing intricate features from the images, making it ideal for tasks such as medical image classification.
 
+![VGG16 model](vgg16.png)
+
 #### Transfer Learning
 In this project, transfer learning is applied using the VGG-16 model. Transfer learning involves using a pre-trained model on a new, but similar problem. This method is particularly useful when dealing with a limited dataset, as the pre-trained model has already learned to extract features that are generally useful for image classification.
 
