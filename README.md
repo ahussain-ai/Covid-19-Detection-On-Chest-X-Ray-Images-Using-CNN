@@ -20,11 +20,16 @@ The dataset includes chest X-ray images categorized into three classes:
 These images are publicly available and have been curated to create a balanced dataset for training and evaluation purposes.
 
 #### Methodology
-##### Data Preprocessing: The images are preprocessed to ensure uniformity in size and scale, and then divided into training and validation sets.
-##### Feature Extraction: The VGG-16 model, pre-trained on ImageNet, is used to extract features from the chest X-ray images.
-##### Model Fine-Tuning: The top layers of the VGG-16 model are fine-tuned, and additional fully connected layers are added to adapt the model for the specific classification task.
-##### Training: The modified model is trained on the preprocessed dataset, and performance metrics such as accuracy, precision, and recall are used to evaluate its effectiveness.
-##### Evaluation: The model's performance is assessed on a validation set to ensure its robustness and accuracy.
+##### Data Preprocessing: 
+      The images are preprocessed to ensure uniformity in size and scale, and then divided into training and validation sets.
+##### Feature Extraction: 
+      The VGG-16 model, pre-trained on ImageNet, is used to extract features from the chest X-ray images.
+##### Model Fine-Tuning: 
+      The top layers of the VGG-16 model are fine-tuned, and additional fully connected layers are added to adapt the model for the specific classification task.
+##### Training: 
+      The modified model is trained on the preprocessed dataset, and performance metrics such as accuracy, precision, and recall are used to evaluate its effectiveness.
+##### Evaluation: 
+      The model's performance is assessed on a validation set to ensure its robustness and accuracy.
 
 #### Results
 The model demonstrates high accuracy in classifying chest X-ray images, making it a valuable tool for aiding in the diagnosis of COVID-19 and distinguishing it from other respiratory conditions like pneumonia. The use of VGG-16 and transfer learning significantly enhances the model's performance, particularly when working with limited data.
